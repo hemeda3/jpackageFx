@@ -5,7 +5,7 @@ jobs:
   build-app:
     strategy:
       matrix:
-        os: [ macos-latest,ubuntu-20.04, windows-latest ]
+        os: [ macos-latest]
     name: Build the application
     runs-on: ${{ matrix.os }}
     steps:
